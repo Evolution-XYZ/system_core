@@ -607,7 +607,7 @@ static void print_guest_thread(CallbackType callback, const Tombstone& tombstone
 
 bool tombstone_proto_to_text(const Tombstone& tombstone, CallbackType callback) {
   CBL("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***");
-  CBL("LineageOS Version: '%s'", tombstone.lineage_version().c_str());
+  CBL("Evolution X Version: '%s'", tombstone.lineage_version().c_str());
   CBL("Build fingerprint: '%s'", tombstone.build_fingerprint().c_str());
   CBL("Revision: '%s'", tombstone.revision().c_str());
   CBL("ABI: '%s'", abi_string(tombstone.arch()));
